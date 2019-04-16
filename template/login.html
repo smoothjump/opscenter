@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="{{ static_url('css/layui.css') }}" media="all">
+    <link rel="stylesheet" type="text/css" href="{{ static_url('css/bootstrap-material-design.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ static_url('css/ripples.min.css') }}">
+    <style type="text/css">
+    #loginform {
+    top: 33%;
+    width: 33%;
+    margin: 0 auto;
+    }
+    input {
+    width: 100%;
+    }
+    </style>
+</head>
+<body>
+<ul class="layui-nav">
+  <li class="layui-nav-item">
+      <a href="">主页</a>
+  </li>
+</ul>
+<div>
+<ul class="layui-nav layui-nav-tree layui-inline" lay-filter="demo" style="margin-right: 10px;">
+  <li class="layui-nav-item layui-nav-itemed">
+    <a href="javascript:;">默认展开</a>
+    <dl class="layui-nav-child">
+      <dd><a href="javascript:;">选项一</a></dd>
+      <dd><a href="javascript:;">选项二</a></dd>
+      <dd><a href="javascript:;">选项三</a></dd>
+      <dd><a href="">跳转项</a></dd>
+    </dl>
+  </li>
+</ul>
+<div id="loginform">
+     <form action="{{ request.path }}" method="post" class="layui-form">
+       <div class="form-group  required">
+           <input type="text" name="username" class="form-control" required autocomplete="off" placeholder="{{ _('用户名') }}"/>
+       </div>
+       <div class="form-group  required">
+           <input type="password" name="password" class="form-control" required class="form-control" placeholder="{{ _('密码') }}"/>
+       </div>
+       <button class="layui-btn" lay-submit="">{{ _('登录') }} </button>
+       <button type="reset" class="layui-btn layui-btn-primary">{{ _('重置') }}</button>
+       {% module xsrf_form_html() %}
+     </form>
+</div>
+</div>
+</body>
+</html>

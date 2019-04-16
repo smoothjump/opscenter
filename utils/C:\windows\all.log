@@ -1,0 +1,160 @@
+[2019-04-15 10:27:00]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 10:27:00]: [INFO] db.py:24 select * from test
+[2019-04-15 10:27:00]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 10:34:27]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 10:38:03]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 10:38:03]: [INFO] db.py:24 select * from user
+[2019-04-15 10:38:03]: [INFO] db.py:24 select * from test
+[2019-04-15 10:38:03]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 10:38:03]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:11:08]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:11:08]: [INFO] db.py:24 select * from user where user=?
+[2019-04-15 11:11:08]: [INFO] db.py:24 select * from test
+[2019-04-15 11:11:42]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:11:42]: [INFO] db.py:24 select * from user where user=?
+[2019-04-15 11:11:42]: [INFO] db.py:24 select * from test
+[2019-04-15 11:13:21]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:13:21]: [INFO] db.py:24 select * from test
+[2019-04-15 11:13:21]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:13:21]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:21:32]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:21:32]: [INFO] db.py:24 select * from test
+[2019-04-15 11:21:32]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:21:32]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:23:36]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:23:36]: [INFO] db.py:24 select * from test
+[2019-04-15 11:23:36]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:23:36]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:23:59]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:23:59]: [INFO] db.py:24 select * from test
+[2019-04-15 11:23:59]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:23:59]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:26:05]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:26:05]: [INFO] db.py:24 select * from test
+[2019-04-15 11:26:05]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:26:05]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:26:32]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:26:32]: [INFO] db.py:24 select * from test
+[2019-04-15 11:26:32]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:26:32]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:28:44]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:28:44]: [INFO] db.py:24 select * from test
+[2019-04-15 11:28:44]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:29:05]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:29:05]: [INFO] db.py:24 select * from test
+[2019-04-15 11:29:05]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:29:05]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:30:38]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:30:38]: [INFO] db.py:24 select * from test
+[2019-04-15 11:30:38]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:30:38]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:43:26]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:43:26]: [INFO] db.py:24 select * from test
+[2019-04-15 11:43:26]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:43:26]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:43:26]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:43:38]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 11:43:38]: [INFO] db.py:24 select * from test
+[2019-04-15 11:43:38]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 11:43:38]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 11:43:38]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 14:29:51]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 14:29:51]: [INFO] db.py:24 select * from test
+[2019-04-15 14:29:51]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 14:29:51]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 14:29:51]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 14:32:37]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 14:32:37]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 14:32:37]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 14:40:46]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 14:40:46]: [INFO] db.py:24 select * from user where username=?
+[2019-04-15 14:40:46]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 14:40:46]: [INFO] db.py:38 Parameter: admin
+[2019-04-15 14:41:20]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 14:41:20]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-15 14:41:20]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 14:43:37]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 14:43:37]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-15 14:43:37]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 14:43:37]: [INFO] db.py:38 Parameter: (1, 'admin')
+[2019-04-15 14:43:53]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 14:43:53]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-15 14:43:53]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 14:43:53]: [INFO] db.py:38 Parameter: (1, 'admin')
+[2019-04-15 14:47:51]: [INFO] db.py:7 Create database connection pool...
+[2019-04-15 14:47:51]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-15 14:47:51]: [INFO] db.py:37 Parameter: (1, 'admin')
+[2019-04-15 14:47:51]: [INFO] db.py:38 Rows returned: 1
+[2019-04-15 17:30:45]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-15 17:30:45]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-15 17:34:48]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-15 17:34:48]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-15 17:34:48]: [INFO] db.py:36 Parameter: (1, 'admin')
+[2019-04-15 17:34:48]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 17:35:18]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-15 17:35:18]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-15 17:35:18]: [INFO] db.py:36 Parameter: (1, 'admin')
+[2019-04-15 17:35:18]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 17:35:18]: [DEBUG] db.py:39 [{'id': 1, 'username': 'admin', 'description': '管理员', 'password': '$2b$12$5MQwYDh9rjycvRwb2FIYP.hKS0pNze9Z9c3WU1XpH5qCLtyI/Uvea', 'status': 1, 'email': 'barton.1985@163.com ', 'mp': 13588447868, 'weibo': ' ', 'wechat': '  ', 'qq': 0, 'last_login': datetime.datetime(2018, 10, 22, 14, 53, 53), 'updated': datetime.datetime(2018, 10, 22, 14, 57, 1), 'created': datetime.datetime(2018, 10, 22, 14, 54, 5)}]
+[2019-04-15 17:36:00]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-15 17:36:00]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-15 17:36:00]: [INFO] db.py:36 Parameter: (1, 'admin')
+[2019-04-15 17:36:00]: [INFO] db.py:37 Rows returned: 1
+[2019-04-15 17:36:00]: [DEBUG] db.py:39 Returned dataset: [{'id': 1, 'username': 'admin', 'description': '管理员', 'password': '$2b$12$5MQwYDh9rjycvRwb2FIYP.hKS0pNze9Z9c3WU1XpH5qCLtyI/Uvea', 'status': 1, 'email': 'barton.1985@163.com ', 'mp': 13588447868, 'weibo': ' ', 'wechat': '  ', 'qq': 0, 'last_login': datetime.datetime(2018, 10, 22, 14, 53, 53), 'updated': datetime.datetime(2018, 10, 22, 14, 57, 1), 'created': datetime.datetime(2018, 10, 22, 14, 54, 5)}]
+[2019-04-16 09:27:46]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 09:27:46]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-16 09:27:46]: [INFO] db.py:36 Parameter: (1, 'admin')
+[2019-04-16 09:27:46]: [INFO] db.py:37 Rows returned: 1
+[2019-04-16 09:27:46]: [DEBUG] db.py:39 Returned dataset: [{'id': 1, 'username': 'admin', 'description': '管理员', 'password': '$2b$12$5MQwYDh9rjycvRwb2FIYP.hKS0pNze9Z9c3WU1XpH5qCLtyI/Uvea', 'status': 1, 'email': 'barton.1985@163.com ', 'mp': 13588447868, 'weibo': ' ', 'wechat': '  ', 'qq': 0, 'last_login': datetime.datetime(2018, 10, 22, 14, 53, 53), 'updated': datetime.datetime(2018, 10, 22, 14, 57, 1), 'created': datetime.datetime(2018, 10, 22, 14, 54, 5)}]
+[2019-04-16 09:28:08]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 09:28:08]: [INFO] db.py:24 select * from user where id = ? and username=?
+[2019-04-16 09:28:08]: [INFO] db.py:36 Parameter: (1, 'admin')
+[2019-04-16 09:28:08]: [INFO] db.py:37 Rows returned: 1
+[2019-04-16 09:28:08]: [DEBUG] db.py:39 Returned dataset: [{'id': 1, 'username': 'admin', 'description': '管理员', 'password': '$2b$12$5MQwYDh9rjycvRwb2FIYP.hKS0pNze9Z9c3WU1XpH5qCLtyI/Uvea', 'status': 1, 'email': 'barton.1985@163.com ', 'mp': 13588447868, 'weibo': ' ', 'wechat': '  ', 'qq': 0, 'last_login': datetime.datetime(2018, 10, 22, 14, 53, 53), 'updated': datetime.datetime(2018, 10, 22, 14, 57, 1), 'created': datetime.datetime(2018, 10, 22, 14, 54, 5)}]
+[2019-04-16 09:35:26]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 09:35:26]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 09:35:26]: [INFO] db.py:36 Parameter: 12.34
+[2019-04-16 09:35:26]: [INFO] db.py:37 Rows returned: 0
+[2019-04-16 09:35:26]: [DEBUG] db.py:39 Returned dataset: ()
+[2019-04-16 10:20:45]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 10:20:45]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 15:01:35]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 15:01:35]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 15:01:35]: [INFO] db.py:36 Parameter: 12.34
+[2019-04-16 15:01:35]: [INFO] db.py:37 Rows returned: 0
+[2019-04-16 15:01:35]: [DEBUG] db.py:39 Returned dataset: ()
+[2019-04-16 15:01:58]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 15:01:58]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 15:02:36]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 15:02:36]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 15:02:36]: [INFO] db.py:36 Parameter: 12.34
+[2019-04-16 15:02:36]: [INFO] db.py:37 Rows returned: 0
+[2019-04-16 15:02:36]: [DEBUG] db.py:39 Returned dataset: ()
+[2019-04-16 18:29:35]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 18:29:35]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 18:29:35]: [INFO] db.py:36 Parameter: 12.34
+[2019-04-16 18:29:35]: [INFO] db.py:37 Rows returned: 1
+[2019-04-16 18:29:35]: [DEBUG] db.py:39 Returned dataset: [{'id': 1, 'username': 'admin', 'description': '管理员', 'password': '$2b$12$5MQwYDh9rjycvRwb2FIYP.hKS0pNze9Z9c3WU1XpH5qCLtyI/Uvea', 'status': 1, 'email': 'barton.1985@163.com ', 'mp': 13588447868, 'weibo': ' ', 'wechat': '  ', 'qq': 0, 'last_login': datetime.datetime(2018, 10, 22, 14, 53, 53), 'updated': datetime.datetime(2019, 4, 16, 15, 7, 9), 'created': datetime.datetime(2018, 10, 22, 14, 54, 5), 'reserved': Decimal('12.3400')}]
+[2019-04-16 18:29:35]: [INFO] db.py:44 insert into test values(?, ?)
+[2019-04-16 18:31:40]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 18:31:40]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 18:31:40]: [INFO] db.py:35 Parameter: 12.34
+[2019-04-16 18:31:40]: [INFO] db.py:36 Rows returned: 1
+[2019-04-16 18:31:40]: [DEBUG] db.py:38 Returned dataset: [{'id': 1, 'username': 'admin', 'description': '管理员', 'password': '$2b$12$5MQwYDh9rjycvRwb2FIYP.hKS0pNze9Z9c3WU1XpH5qCLtyI/Uvea', 'status': 1, 'email': 'barton.1985@163.com ', 'mp': 13588447868, 'weibo': ' ', 'wechat': '  ', 'qq': 0, 'last_login': datetime.datetime(2018, 10, 22, 14, 53, 53), 'updated': datetime.datetime(2019, 4, 16, 15, 7, 9), 'created': datetime.datetime(2018, 10, 22, 14, 54, 5), 'reserved': Decimal('12.3400')}]
+[2019-04-16 18:31:40]: [INFO] db.py:43 insert into test values(?, ?)
+[2019-04-16 18:33:58]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 18:33:58]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 18:33:58]: [INFO] db.py:25 Parameter: 12.34
+[2019-04-16 18:33:58]: [INFO] db.py:36 Rows returned: 1
+[2019-04-16 18:33:58]: [DEBUG] db.py:38 Returned dataset: [{'id': 1, 'username': 'admin', 'description': '管理员', 'password': '$2b$12$5MQwYDh9rjycvRwb2FIYP.hKS0pNze9Z9c3WU1XpH5qCLtyI/Uvea', 'status': 1, 'email': 'barton.1985@163.com ', 'mp': 13588447868, 'weibo': ' ', 'wechat': '  ', 'qq': 0, 'last_login': datetime.datetime(2018, 10, 22, 14, 53, 53), 'updated': datetime.datetime(2019, 4, 16, 15, 7, 9), 'created': datetime.datetime(2018, 10, 22, 14, 54, 5), 'reserved': Decimal('12.3400')}]
+[2019-04-16 18:33:58]: [INFO] db.py:43 insert into test values(?, ?)
+[2019-04-16 18:33:58]: [INFO] db.py:44 Parameter: [2, 'RRT']
+[2019-04-16 18:33:58]: [DEBUG] db.py:51 Affected rows: 1
+[2019-04-16 19:39:24]: [INFO] db.py:7 Initialize database connection pool...
+[2019-04-16 19:39:24]: [INFO] db.py:24 select * from user where reserved=?
+[2019-04-16 19:39:24]: [INFO] db.py:25 Parameter: 12.34
+[2019-04-16 19:39:24]: [INFO] db.py:36 Rows returned: 1
+[2019-04-16 19:39:24]: [DEBUG] db.py:38 Returned dataset: [{'id': 1, 'username': 'admin', 'description': '管理员', 'password': '$2b$12$5MQwYDh9rjycvRwb2FIYP.hKS0pNze9Z9c3WU1XpH5qCLtyI/Uvea', 'status': 1, 'email': 'barton.1985@163.com ', 'mp': 13588447868, 'weibo': ' ', 'wechat': '  ', 'qq': 0, 'last_login': datetime.datetime(2018, 10, 22, 14, 53, 53), 'updated': datetime.datetime(2019, 4, 16, 15, 7, 9), 'created': datetime.datetime(2018, 10, 22, 14, 54, 5), 'reserved': Decimal('12.3400')}]
+[2019-04-16 19:39:24]: [INFO] db.py:43 insert into test values(?, ?)
+[2019-04-16 19:39:24]: [INFO] db.py:44 Parameter: [2, 'RRT']
+[2019-04-16 19:39:24]: [DEBUG] db.py:51 Affected rows: 1
