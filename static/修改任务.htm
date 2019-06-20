@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)http://127.0.0.1:5000/tbb/modify_task/5b0b75f82470583048effc13 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+        
+    <title>修改任务</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <!-- Bootstrap -->
+    <link href="./修改任务_files/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design fonts -->
+        <link rel="stylesheet" type="text/css" href="./修改任务_files/css">
+        <link rel="stylesheet" type="text/css" href="./修改任务_files/icon">
+    <!-- Bootstrap Material Design -->
+        <link rel="stylesheet" type="text/css" href="./修改任务_files/bootstrap-material-design.min.css">
+        <link rel="stylesheet" type="text/css" href="./修改任务_files/ripples.min.css">
+    <!-- Dropdown.js -->
+        <link href="./修改任务_files/jquery.dropdown.css" rel="stylesheet">
+    <!-- codehilite -->
+        <link href="./修改任务_files/codehilite.css" rel="stylesheet">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" />
+    <style>
+    body {
+        padding-top: 70px;
+    }
+    </style>
+
+    
+        
+<meta name="baidu-site-verification" content="aYZ4JECMfI">
+    
+    <style type="text/css">
+        #loginlength {
+            width: 35%;
+        }
+    </style>
+
+  </head>
+  <body>
+    
+       
+<div class="navbar navbar-primary navbar-fixed-top" style="box-shadow: 0px 0px 5px #000000;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-material-light-blue-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://127.0.0.1:5000/tbb/list">兔波波报表系统 V0.9</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-material-light-blue-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="http://127.0.0.1:5000/tbb/logout">
+                            注销
+                        </a>
+                        
+            </li></ul>
+        </div>
+    </div>
+</div>
+       
+    
+    
+    <div class="page-header">
+        <div class="container">
+            <h1>修改任务</h1>
+        </div>
+    </div>
+    <div class="container">
+        
+        <form method="post">
+            <input id="csrf_token" name="csrf_token" type="hidden" value="IjkxNzA1YWU5YWVmOGI0MTkxZWU3YThlYTYwYWQwMjZhM2EyNDA5MjMi.Di4rtQ.sgLM1L7tcxiJQwfggwCjhP7Q0SA">
+            <div hidden="">
+
+
+
+
+<div class="form-group "><label class="control-label" for="id">Id</label>
+        
+          <input class="form-control" id="id" name="id" type="hidden" value="5b0b75f82470583048effc13">
+        
+  </div>
+
+</div>
+            
+
+
+
+
+
+
+<div class="form-group  required"><label class="control-label" for="task_name">任务名称</label>
+        
+          <input class="form-control" id="task_name" name="task_name" required="" type="text" value="测试任务-sm">
+        
+  </div>
+
+
+            
+
+
+
+
+
+
+<div class="form-group  required"><label class="control-label" for="crontab_string">Crontab表达式</label>
+        
+          <input class="form-control" id="crontab_string" name="crontab_string" required="" type="text" value="10 17 * * *">
+        
+  </div>
+
+
+            
+
+
+
+
+
+
+<div class="form-group  required"><label class="control-label" for="receivers">邮件接收人</label>
+        
+          <input class="form-control" id="receivers" name="receivers" required="" type="text" value="lizhi@xinguangnet.com,barton.1985@163.com">
+        
+  </div>
+
+
+            
+
+
+
+
+
+
+<div class="form-group  required"><label class="control-label" for="db_server">数据源主机(MySQL)</label>
+        
+          <input class="form-control" id="db_server" name="db_server" required="" type="text" value="127.0.0.1">
+        
+  </div>
+
+
+            
+
+
+
+
+
+
+<div class="form-group  required"><label class="control-label" for="db_pwd">数据库密码</label>
+        
+          <input class="form-control" id="db_pwd" name="db_pwd" required="" type="password" value="">
+        
+  </div>
+
+
+            
+
+
+
+
+
+
+<div class="form-group  required"><label class="control-label" for="script">SQL语句</label>
+        
+          <textarea class="form-control" id="script" name="script" required="">select * from user where user='root'</textarea>
+        
+  </div>
+
+
+            
+
+
+
+
+
+  
+
+  
+  
+
+
+    <input class="btn btn-default" id="submit" name="submit" type="submit" value="保存修改">
+  
+
+
+
+
+            <a class="btn btn-default" id="submit" name="submit" href="http://127.0.0.1:5000/tbb/list" type="button">取消</a>
+        </form>
+    </div>
+
+
+    
+    <script src="./修改任务_files/jquery.min.js"></script>
+    <script src="./修改任务_files/bootstrap.min.js"></script>
+  
+
+</body></html>
