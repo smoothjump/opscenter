@@ -3,7 +3,7 @@
 
 
 from utils import log
-from models.db import select, execute, create_args_string, create_pool
+from utils.db import select, execute, create_args_string
 
 logger = log.init_logger("ORM Logger")
 
