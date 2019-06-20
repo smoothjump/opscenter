@@ -3,9 +3,10 @@ import asyncio
 import aiomysql
 
 
-async def create_pool(loop, **kw):
+async def create_pool(**kw):
     logger.info('Initialize database connection pool...')
     global __pool
+    loop = asyncio.get_event_loop()
     __pool = await aiomysql.create_pool(
         host=kw.get('host', 'localhost'),
         port=kw.get('port', 3306),
@@ -66,7 +67,7 @@ def create_args_string(num):
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(create_pool(loop, user='root', password='123', db='ops'))
+    loop.run_until_complete(create_pool(user='root', password='123', db='ops'))
     loop.run_until_complete(select("select * from user where reserved=?", args=(12.34)))
     # loop.run_until_complete(execute("insert into test values(?, ?)", args=[2, "RRT"]))
     loop.run_until_complete(execute("show tables"))
